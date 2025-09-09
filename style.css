@@ -1,0 +1,412 @@
+body{
+    
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 90%;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),url(./int3.jpeg);
+    
+    
+}
+.navlog a{
+    color: white;
+    float: right;
+    margin-top: -18px;
+    margin-right: -100px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.navlog a:hover{
+    color: red;
+    text-decoration: underline;
+}
+
+.navbar{
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+.navbar img{
+    width: 40px;
+}
+.navbar a{
+    color:red;
+    text-decoration: none ;
+    padding: 50px;
+    transition: 0.4s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: -10px;
+    font-weight: bold;
+}
+.navbar a:hover{
+    color:aqua;
+    text-decoration: underline;
+}
+.text h1{
+    font-style: italic;
+    color: #f6be10;
+    margin-bottom: -90px;
+    margin-left: 20px;
+    padding: 20px;
+    
+    
+}
+.text h3{
+    color: white;
+    text-align: center;
+    margin-top: 100px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 90px;
+    margin-left: -89px;
+}
+.text h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    font-size: 60px;
+    margin-top: -90px;
+    margin-left: -700px;
+    
+}
+.text h2 button{
+    border-radius: 20px;
+    width: 200px;
+    height: 60px;
+    margin-top: 80px;
+    margin-right: -500px;
+    font-size: medium;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.text h2 button:hover{
+    background-color: red;
+}
+.image-text-box{
+display: inline-block;
+position: relative;
+width: 300px;
+height: auto;
+}
+.image-text-box img{
+    width: 150%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+    transition: transform 0.3s ease;
+}
+.image-text-box img:hover{
+    transform: scale(1.05);
+}
+.hover-text{
+    position: absolute;
+    bottom: 10px;
+    left: 70%;
+    transform: translateX(-50%);
+    background-color: rgba(255,223,0,0.9);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+.image-text-box:hover .hover-text{
+    opacity: 1;
+}
+.image-text-box2{
+display: flex;
+width: 300px;
+height: auto;
+}
+.image-text-box2 img{
+    width: 150%;
+    height: 54vh;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-left: 550px;
+    margin-top: -390px;
+    transition: transfrom 0.3s ease;
+    box-shadow: rgba(255,223,0,0.9);
+
+}
+.image-text-box2 img:hover{
+    transform: scale(1.05);
+}
+.hover-text2{
+    position: absolute;
+    bottom: -127px;
+    left: 60%;
+    transform: translateX(-50%);
+    background-color: rgba(255,223,0,0.9);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+}
+
+.image-text-box2:hover .hover-text2{
+    opacity: 1;
+}
+
+.image-text-box4{
+    height: auto;
+    width: 300px;
+    display: flex;
+    
+}
+.image-text-box4 img{
+    border-radius: 10px;
+    width: 130%;
+    height: 54vh;
+    cursor: pointer;
+    margin-left: 990px;
+    margin-top: -390px;
+    transition: transform 0.3s ease;
+}
+.image-text-box4 img:hover{
+    transform:scale(1.05)
+}
+
+.hover-text4{
+    position: absolute;
+    bottom: -127px;
+    left: 89%;
+    transform: translateX(-50%);
+    background-color: rgba(255,223,0,0.9);
+    color: #000;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    white-space: nowrap;
+
+}
+.image-text-box4:hover .hover-text4{
+    opacity: 1;
+    
+}
+.wrapper2{
+    
+    height: auto;
+    display: flex;
+}
+.wrapper2 img{
+    border-radius: 10px;
+    height: 54vh;
+    margin-left: 990px;
+    max-width: 400px;
+    margin-top: -500px;
+    margin-bottom: 20px;
+    box-shadow: #333;
+    transition: transform 0.3s ease;
+    cursor: pointer;
+}
+.wrapper2 img:hover{
+    transform: scale(1.05);
+}
+.aecia-text2{
+    color: black;
+    background-color: #f6be10;
+    font-size: 20px;
+    bottom: -120px;
+    padding: 8px 12px;
+    border-radius: 6px;
+    font-weight: bold;
+    opacity: 0;
+    white-space: nowrap;
+    pointer-events: none;
+    transition: opacity 0.6s ease;
+    transform: translateX(-50%);
+    position: absolute;
+    margin-left:1111px;
+
+}
+.wrapper2:hover .aecia-text2{
+    opacity: 1;
+}
+.id h1{
+    font-style: italic;
+    color: black;
+    font-size: 1.5rem;
+    background-color: #fff;
+    padding: 40px 5px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 300px;
+    text-align: center;
+    margin-left: 600px;
+    height: 10px;
+    margin-top: 10px;
+    background-color: #f6be10;
+    cursor: pointer;
+}
+.wrapper7{
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0 15px;
+        gap: 5rem;
+}
+.portfolio img{
+        width: 100%;
+        max-width: 400px;
+        object-fit: cover;
+        vertical-align: middle;
+        border-radius: 30px;
+        box-shadow: #555;
+        margin-top: 30px;
+        height: 460px;
+}
+.intro{
+    flex: 1;
+}
+.intro h3{
+   font-size: xxx-large;
+   color: #f6be10;
+   font-style: oblique;
+}
+.intro p{
+    color: white;
+    font-size: 1.4rem;
+    width: 600px;
+    margin-left: -30px;
+    margin-top: -20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+   
+
+
+
+   
+
+
+
+
+
+
+
+
+
